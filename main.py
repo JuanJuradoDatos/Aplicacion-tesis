@@ -1,4 +1,9 @@
 #Import All the Required Libraries
+import subprocess
+import sys
+
+# Ver dependencias instaladas
+subprocess.run([sys.executable, "-m", "pip", "list"])
 import cv2
 import streamlit as st
 from pathlib import Path
